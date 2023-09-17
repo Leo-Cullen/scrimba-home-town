@@ -1,11 +1,15 @@
 /* font-family: 'IM Fell Double Pica SC', serif;
 font-family: 'IM Fell English', serif;
 
---almond: #E8D7C3ff;
+--almond: #E8D7C3ff; body background
 --night: #161613ff;
 --silver: #CBCBC9ff;
 --battleship-gray: #8E8E83ff;
 --ash-gray: #AEAB9Eff;
+
+--cinnabar #F2542D
+--raisin black #242331 hero-title
+--dark cyan #0e9594 hero-sub-title
 
 */
 * {
@@ -17,20 +21,22 @@ font-family: 'IM Fell English', serif;
 }
 
 body {
-  margin: 0;
   color: #161613ff;
   background-color: #e8d7c3ff;
 }
 
-.hero {
+.container {
   margin: 0 auto;
   width: 720px;
+  background-color: whitesmoke;
+}
+
+.hero {
   height: 340px;
   background-image: url("images/newross-1898-hero.png");
   background-size: cover;
   font-family: "IM Fell English", serif;
   font-size: 1.5em;
-  color: #6a3207;
   /* border: 3px solid yellow; */
 }
 
@@ -51,4 +57,34 @@ body {
   font-size: 1.2em;
   font-weight: bold;
   font-style: italic;
+}
+
+.heading {
+  font-size: 1.5em;
+  text-align: center;
+  padding-top: 40px;
+  font-family: "IM Fell English", serif;
+  color: #242331;
+}
+
+.title {
+  font-size: 1.5em;
+}
+.sub-title {
+}
+
+.attractions {
+  height: 340px;
+  display: flex;
+  justify-content: space-around;
+}
+
+.attraction-img {
+  width: 180px;
+  border-radius: 50%;
+}
+
+footer {
+  height: 80px;
+  background-color: #0e9594;
 }
