@@ -1,0 +1,54 @@
+/* font-family: 'IM Fell Double Pica SC', serif;
+font-family: 'IM Fell English', serif;
+
+--almond: #E8D7C3ff;
+--night: #161613ff;
+--silver: #CBCBC9ff;
+--battleship-gray: #8E8E83ff;
+--ash-gray: #AEAB9Eff;
+
+*/
+* {
+  margin: 0;
+  padding: 0;
+}
+.text-blue {
+  color: #242331;
+}
+
+body {
+  margin: 0;
+  color: #161613ff;
+  background-color: #e8d7c3ff;
+}
+
+.hero {
+  margin: 0 auto;
+  width: 720px;
+  height: 340px;
+  background-image: url("images/newross-1898-hero.png");
+  background-size: cover;
+  font-family: "IM Fell English", serif;
+  font-size: 1.5em;
+  color: #6a3207;
+  /* border: 3px solid yellow; */
+}
+
+#hero-title {
+  padding-top: 30px;
+  letter-spacing: 1.5px;
+  padding-left: 80px;
+}
+
+#hero-sub-title {
+  padding: 190px 120px;
+  color: #0e9594;
+  font-family: "Uncial Antiqua", cursive;
+  font-size: 1.2em;
+}
+
+#underline {
+  font-size: 1.2em;
+  font-weight: bold;
+  font-style: italic;
+}
