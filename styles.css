@@ -1,28 +1,43 @@
-/* font-family: 'IM Fell Double Pica SC', serif;
-font-family: 'IM Fell English', serif;
+/* font-family: 'Cinzel Decorative', cursive;
+font-family: 'Uncial Antiqua', cursive;
+font-family: 'Lato', sans-serif;
 
---almond: #E8D7C3ff; body background
---night: #161613ff;
---silver: #CBCBC9ff;
---battleship-gray: #8E8E83ff;
---ash-gray: #AEAB9Eff;
 
---cinnabar #F2542D
+
+
 --raisin black #242331 hero-title
---dark cyan #0e9594 hero-sub-title
 
 */
 * {
   margin: 0;
   padding: 0;
 }
-.text-blue {
+
+h1,
+h2 {
+  font-family: "Cinzel Decorative", cursive;
+}
+
+p,
+li {
+  font-size: 16px;
+  line-height: 1.8em;
+  font-weight: 400;
+}
+
+h2 {
   color: #242331;
 }
 
+h3,
+p,
+li {
+  color: #242331;
+  font-family: "Lato", sans-serif;
+}
+
 body {
-  color: #161613ff;
-  background-color: #e8d7c3ff;
+  background-color: #eee;
 }
 
 .container {
@@ -32,39 +47,36 @@ body {
 }
 
 .hero {
+  text-align: center;
   height: 340px;
-  background-image: url("images/newross-1898-hero.png");
+  background-image: url("images/newross-hero-1200.avif");
   background-size: cover;
-  font-family: "IM Fell English", serif;
-  font-size: 1.5em;
-  /* border: 3px solid yellow; */
+  color: white;
+  text-shadow: 2px 2px 1px #242331;
 }
 
 #hero-title {
+  font-size: 3em;
   padding-top: 30px;
   letter-spacing: 1.5px;
-  padding-left: 80px;
 }
 
 #hero-sub-title {
-  padding: 190px 120px;
-  color: #0e9594;
+  color: white;
+  padding-top: 160px;
   font-family: "Uncial Antiqua", cursive;
   font-size: 1.2em;
+  letter-spacing: 0.2em;
 }
 
-#underline {
+#new-ross {
   font-size: 1.2em;
-  font-weight: bold;
-  font-style: italic;
 }
-
 .heading {
-  font-size: 1.5em;
+  font-size: ;
   text-align: center;
   padding-top: 40px;
-  font-family: "IM Fell English", serif;
-  color: #242331;
+  font-family: "Cinzel Decorative", cursive;
 }
 
 .title {
@@ -74,9 +86,16 @@ body {
 }
 
 .attractions {
-  height: 340px;
   display: flex;
   justify-content: space-around;
+  margin-bottom: 60px;
+}
+
+.attraction {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
 }
 
 .attraction-img {
@@ -84,7 +103,56 @@ body {
   border-radius: 50%;
 }
 
+.trip-logo {
+  width: 140px;
+}
+
+.trip-rating {
+  width: 80px;
+}
+
+.card {
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: ;
+  align-items: center;
+  border: 2px solid grey;
+  border-radius: 20px;
+  width: px;
+  height: ;
+}
+
+.card img {
+  width: 720px;
+}
+
+#outro {
+  display: flex;
+}
+
+#your-host {
+  width: 360px;
+  border: 2px dotted pink;
+}
+
+#fun-facts {
+  width: 360px;
+  border: 2px solid purple;
+}
+
+#avatar {
+  width: 200px;
+  margin: 20px;
+  border: 6px solid #642140;
+  border-radius: 20px;
+}
+
 footer {
+  background-color: white;
+  padding: 20px 0;
+  display: flex;
+  justify-content: space-around;
+  width: 720px;
   height: 80px;
-  background-color: #0e9594;
 }
